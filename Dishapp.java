@@ -22,7 +22,12 @@ public class Dishapp {
 		danie.basil(3);
 		
 		System.out.println("In the kitchen you are making "+danie2.getDish() +  ", to the dish were added " + danie2.getSpoon() + " spoons of " + danie2.getSpice());
-		
+		danie2.salt(1); 
+		danie2.sugar(0);
+		danie2.oregano(1);
+		danie2.basil(1);
+		danie2.basil(1);
 		System.out.println("In the kitchen you are making "+((Dish)danie3).getDish() +  ", to the dish were added " + ((Dish)danie3).getSpoon() + " spoons of " + ((Dish)danie3).getSpice());
+		danie3.basil(1);
 }
 }
